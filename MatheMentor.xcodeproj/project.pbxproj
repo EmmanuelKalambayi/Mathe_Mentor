@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D4A70CB2C0F47B80094A6EF /* HomeSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A70CA2C0F47B80094A6EF /* HomeSheetView.swift */; };
+		4D76CB532C13192800E7BA80 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76CB522C13192800E7BA80 /* ProgressBar.swift */; };
+		4D8A5A7E2C0DE06D00ED0DE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A5A7A2C0DE06D00ED0DE3 /* HomeView.swift */; };
+		4D8A5A7F2C0DE06D00ED0DE3 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A5A7B2C0DE06D00ED0DE3 /* QuizView.swift */; };
+		4DC05D5E2C1251E700675634 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC05D5D2C1251E700675634 /* GameOverView.swift */; };
+		4DC05D602C12613000675634 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC05D5F2C12613000675634 /* UserDataModel.swift */; };
+		4DFF99942C11C921004289E6 /* RechnungsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF99932C11C921004289E6 /* RechnungsModel.swift */; };
+		4DFF99962C11CAFD004289E6 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF99952C11CAFD004289E6 /* StartView.swift */; };
+		4DFF999A2C11CC15004289E6 /* HighscoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF99992C11CC15004289E6 /* HighscoreView.swift */; };
+		F37857852C0DC5B300CF88BA /* MatheMentorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37857842C0DC5B300CF88BA /* MatheMentorApp.swift */; };
+		F37857872C0DC5B300CF88BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37857862C0DC5B300CF88BA /* ContentView.swift */; };
+		F37857892C0DC5B400CF88BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37857882C0DC5B400CF88BA /* Assets.xcassets */; };
+		F378578C2C0DC5B400CF88BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F378578B2C0DC5B400CF88BA /* Preview Assets.xcassets */; };
+		F37857962C0DC5B400CF88BA /* MatheMentorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37857952C0DC5B400CF88BA /* MatheMentorTests.swift */; };
+		F37857A02C0DC5B400CF88BA /* MatheMentorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378579F2C0DC5B400CF88BA /* MatheMentorUITests.swift */; };
+		F37857A22C0DC5B400CF88BA /* MatheMentorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37857A12C0DC5B400CF88BA /* MatheMentorUITestsLaunchTests.swift */; };
+		F37857BB2C0F12C400CF88BA /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37857BA2C0F12C400CF88BA /* QuizViewModel.swift */; };
+		F37857BD2C0F132300CF88BA /* QuizRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37857BC2C0F132300CF88BA /* QuizRepository.swift */; };
+		F37857BF2C11ADA000CF88BA /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37857BE2C11ADA000CF88BA /* SettingsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F37857922C0DC5B400CF88BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37857792C0DC5B300CF88BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37857802C0DC5B300CF88BA;
+			remoteInfo = MatheMentor;
+		};
+		F378579C2C0DC5B400CF88BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37857792C0DC5B300CF88BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37857802C0DC5B300CF88BA;
+			remoteInfo = MatheMentor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D4A70CA2C0F47B80094A6EF /* HomeSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSheetView.swift; sourceTree = "<group>"; };
+		4D76CB522C13192800E7BA80 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		4D8A5A7A2C0DE06D00ED0DE3 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D8A5A7B2C0DE06D00ED0DE3 /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizView.swift; path = ../../QuizView.swift; sourceTree = "<group>"; };
+		4DC05D5D2C1251E700675634 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		4DC05D5F2C12613000675634 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		4DFF99932C11C921004289E6 /* RechnungsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechnungsModel.swift; sourceTree = "<group>"; };
+		4DFF99952C11CAFD004289E6 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		4DFF99992C11CC15004289E6 /* HighscoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoreView.swift; sourceTree = "<group>"; };
+		F37857812C0DC5B300CF88BA /* MatheMentor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatheMentor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37857842C0DC5B300CF88BA /* MatheMentorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheMentorApp.swift; sourceTree = "<group>"; };
+		F37857862C0DC5B300CF88BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F37857882C0DC5B400CF88BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F378578B2C0DC5B400CF88BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F37857912C0DC5B400CF88BA /* MatheMentorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatheMentorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37857952C0DC5B400CF88BA /* MatheMentorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheMentorTests.swift; sourceTree = "<group>"; };
+		F378579B2C0DC5B400CF88BA /* MatheMentorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatheMentorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F378579F2C0DC5B400CF88BA /* MatheMentorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheMentorUITests.swift; sourceTree = "<group>"; };
+		F37857A12C0DC5B400CF88BA /* MatheMentorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheMentorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F37857BA2C0F12C400CF88BA /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		F37857BC2C0F132300CF88BA /* QuizRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRepository.swift; sourceTree = "<group>"; };
+		F37857BE2C11ADA000CF88BA /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F378577E2C0DC5B300CF88BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F378578E2C0DC5B400CF88BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37857982C0DC5B400CF88BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D8A5A812C0DE38E00ED0DE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F37857BC2C0F132300CF88BA /* QuizRepository.swift */,
+				F37857BE2C11ADA000CF88BA /* SettingsModel.swift */,
+				4DFF99932C11C921004289E6 /* RechnungsModel.swift */,
+				4DC05D5F2C12613000675634 /* UserDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D8A5A842C0F086800ED0DE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF99952C11CAFD004289E6 /* StartView.swift */,
+				4D8A5A7A2C0DE06D00ED0DE3 /* HomeView.swift */,
+				4D4A70CA2C0F47B80094A6EF /* HomeSheetView.swift */,
+				F37857B72C0F123A00CF88BA /* Quiz */,
+				4DFF99992C11CC15004289E6 /* HighscoreView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F37857782C0DC5B300CF88BA = {
+			isa = PBXGroup;
+			children = (
+				F37857832C0DC5B300CF88BA /* MatheMentor */,
+				F37857942C0DC5B400CF88BA /* MatheMentorTests */,
+				F378579E2C0DC5B400CF88BA /* MatheMentorUITests */,
+				F37857822C0DC5B300CF88BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F37857822C0DC5B300CF88BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37857812C0DC5B300CF88BA /* MatheMentor.app */,
+				F37857912C0DC5B400CF88BA /* MatheMentorTests.xctest */,
+				F378579B2C0DC5B400CF88BA /* MatheMentorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37857832C0DC5B300CF88BA /* MatheMentor */ = {
+			isa = PBXGroup;
+			children = (
+				4D8A5A842C0F086800ED0DE3 /* Home */,
+				4D8A5A812C0DE38E00ED0DE3 /* Model */,
+				F37857842C0DC5B300CF88BA /* MatheMentorApp.swift */,
+				4DC05D5D2C1251E700675634 /* GameOverView.swift */,
+				F37857862C0DC5B300CF88BA /* ContentView.swift */,
+				F37857882C0DC5B400CF88BA /* Assets.xcassets */,
+				F378578A2C0DC5B400CF88BA /* Preview Content */,
+			);
+			path = MatheMentor;
+			sourceTree = "<group>";
+		};
+		F378578A2C0DC5B400CF88BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F378578B2C0DC5B400CF88BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F37857942C0DC5B400CF88BA /* MatheMentorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F37857952C0DC5B400CF88BA /* MatheMentorTests.swift */,
+			);
+			path = MatheMentorTests;
+			sourceTree = "<group>";
+		};
+		F378579E2C0DC5B400CF88BA /* MatheMentorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F378579F2C0DC5B400CF88BA /* MatheMentorUITests.swift */,
+				F37857A12C0DC5B400CF88BA /* MatheMentorUITestsLaunchTests.swift */,
+			);
+			path = MatheMentorUITests;
+			sourceTree = "<group>";
+		};
+		F37857B72C0F123A00CF88BA /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				4D8A5A7B2C0DE06D00ED0DE3 /* QuizView.swift */,
+				F37857BA2C0F12C400CF88BA /* QuizViewModel.swift */,
+				4D76CB522C13192800E7BA80 /* ProgressBar.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37857802C0DC5B300CF88BA /* MatheMentor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37857A52C0DC5B400CF88BA /* Build configuration list for PBXNativeTarget "MatheMentor" */;
+			buildPhases = (
+				F378577D2C0DC5B300CF88BA /* Sources */,
+				F378577E2C0DC5B300CF88BA /* Frameworks */,
+				F378577F2C0DC5B300CF88BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatheMentor;
+			productName = MatheMentor;
+			productReference = F37857812C0DC5B300CF88BA /* MatheMentor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F37857902C0DC5B400CF88BA /* MatheMentorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37857A82C0DC5B400CF88BA /* Build configuration list for PBXNativeTarget "MatheMentorTests" */;
+			buildPhases = (
+				F378578D2C0DC5B400CF88BA /* Sources */,
+				F378578E2C0DC5B400CF88BA /* Frameworks */,
+				F378578F2C0DC5B400CF88BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F37857932C0DC5B400CF88BA /* PBXTargetDependency */,
+			);
+			name = MatheMentorTests;
+			productName = MatheMentorTests;
+			productReference = F37857912C0DC5B400CF88BA /* MatheMentorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F378579A2C0DC5B400CF88BA /* MatheMentorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37857AB2C0DC5B400CF88BA /* Build configuration list for PBXNativeTarget "MatheMentorUITests" */;
+			buildPhases = (
+				F37857972C0DC5B400CF88BA /* Sources */,
+				F37857982C0DC5B400CF88BA /* Frameworks */,
+				F37857992C0DC5B400CF88BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F378579D2C0DC5B400CF88BA /* PBXTargetDependency */,
+			);
+			name = MatheMentorUITests;
+			productName = MatheMentorUITests;
+			productReference = F378579B2C0DC5B400CF88BA /* MatheMentorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F37857792C0DC5B300CF88BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F37857802C0DC5B300CF88BA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F37857902C0DC5B400CF88BA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F37857802C0DC5B300CF88BA;
+					};
+					F378579A2C0DC5B400CF88BA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F37857802C0DC5B300CF88BA;
+					};
+				};
+			};
+			buildConfigurationList = F378577C2C0DC5B300CF88BA /* Build configuration list for PBXProject "MatheMentor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F37857782C0DC5B300CF88BA;
+			productRefGroup = F37857822C0DC5B300CF88BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37857802C0DC5B300CF88BA /* MatheMentor */,
+				F37857902C0DC5B400CF88BA /* MatheMentorTests */,
+				F378579A2C0DC5B400CF88BA /* MatheMentorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F378577F2C0DC5B300CF88BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F378578C2C0DC5B400CF88BA /* Preview Assets.xcassets in Resources */,
+				F37857892C0DC5B400CF88BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F378578F2C0DC5B400CF88BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37857992C0DC5B400CF88BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F378577D2C0DC5B300CF88BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37857BF2C11ADA000CF88BA /* SettingsModel.swift in Sources */,
+				4DFF99962C11CAFD004289E6 /* StartView.swift in Sources */,
+				F37857872C0DC5B300CF88BA /* ContentView.swift in Sources */,
+				4D8A5A7E2C0DE06D00ED0DE3 /* HomeView.swift in Sources */,
+				F37857BD2C0F132300CF88BA /* QuizRepository.swift in Sources */,
+				4DFF999A2C11CC15004289E6 /* HighscoreView.swift in Sources */,
+				4D76CB532C13192800E7BA80 /* ProgressBar.swift in Sources */,
+				4D4A70CB2C0F47B80094A6EF /* HomeSheetView.swift in Sources */,
+				4DFF99942C11C921004289E6 /* RechnungsModel.swift in Sources */,
+				4D8A5A7F2C0DE06D00ED0DE3 /* QuizView.swift in Sources */,
+				F37857BB2C0F12C400CF88BA /* QuizViewModel.swift in Sources */,
+				4DC05D5E2C1251E700675634 /* GameOverView.swift in Sources */,
+				4DC05D602C12613000675634 /* UserDataModel.swift in Sources */,
+				F37857852C0DC5B300CF88BA /* MatheMentorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F378578D2C0DC5B400CF88BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37857962C0DC5B400CF88BA /* MatheMentorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37857972C0DC5B400CF88BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37857A02C0DC5B400CF88BA /* MatheMentorUITests.swift in Sources */,
+				F37857A22C0DC5B400CF88BA /* MatheMentorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F37857932C0DC5B400CF88BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37857802C0DC5B300CF88BA /* MatheMentor */;
+			targetProxy = F37857922C0DC5B400CF88BA /* PBXContainerItemProxy */;
+		};
+		F378579D2C0DC5B400CF88BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37857802C0DC5B300CF88BA /* MatheMentor */;
+			targetProxy = F378579C2C0DC5B400CF88BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F37857A32C0DC5B400CF88BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F37857A42C0DC5B400CF88BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F37857A62C0DC5B400CF88BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatheMentor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UN3CN4JVS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comGruppe1.MatheMentor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37857A72C0DC5B400CF88BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatheMentor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UN3CN4JVS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comGruppe1.MatheMentor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F37857A92C0DC5B400CF88BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comGruppe1.MatheMentorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatheMentor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MatheMentor";
+			};
+			name = Debug;
+		};
+		F37857AA2C0DC5B400CF88BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comGruppe1.MatheMentorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatheMentor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MatheMentor";
+			};
+			name = Release;
+		};
+		F37857AC2C0DC5B400CF88BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comGruppe1.MatheMentorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatheMentor;
+			};
+			name = Debug;
+		};
+		F37857AD2C0DC5B400CF88BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comGruppe1.MatheMentorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatheMentor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F378577C2C0DC5B300CF88BA /* Build configuration list for PBXProject "MatheMentor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37857A32C0DC5B400CF88BA /* Debug */,
+				F37857A42C0DC5B400CF88BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37857A52C0DC5B400CF88BA /* Build configuration list for PBXNativeTarget "MatheMentor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37857A62C0DC5B400CF88BA /* Debug */,
+				F37857A72C0DC5B400CF88BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37857A82C0DC5B400CF88BA /* Build configuration list for PBXNativeTarget "MatheMentorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37857A92C0DC5B400CF88BA /* Debug */,
+				F37857AA2C0DC5B400CF88BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37857AB2C0DC5B400CF88BA /* Build configuration list for PBXNativeTarget "MatheMentorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37857AC2C0DC5B400CF88BA /* Debug */,
+				F37857AD2C0DC5B400CF88BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F37857792C0DC5B300CF88BA /* Project object */;
+}
