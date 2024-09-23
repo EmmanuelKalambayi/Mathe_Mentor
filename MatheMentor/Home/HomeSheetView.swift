@@ -71,7 +71,7 @@ struct HomeSheetView: View {
 }
 
 #Preview {
-    HomeSheetView()
+    //HomeSheetView()
 }
 
 
